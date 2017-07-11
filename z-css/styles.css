@@ -1,0 +1,30 @@
+body,
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Zilla Slab', serif;
+	font-weight: 600;
+	color: rgba(170, 170, 170, 1.0);
+}
+
+.splash-center-vh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.splash-center-vh .box {
+    height: 50px;
+    width: 50px;
+}
+
+img {
+	max-width: 800px; 
+}
+
+h1 {
+	font-size: 3rem;
+}
